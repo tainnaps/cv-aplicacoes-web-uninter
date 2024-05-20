@@ -1,0 +1,153 @@
+:root {
+    --black: #161616;
+    --turquoise: #06dee1;
+    --white: #ffffff;
+    --grey: #333333;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Inter";
+    font-size: large;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: var(--black);
+}
+
+main section {
+    height: 90vh;
+    padding: 0 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    line-height: 2rem;
+}
+
+#links-navegacao {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+
+#inicio {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inicio > div {
+    border: 1px solid var(--white);
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    height: 57vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 5px;
+    white-space: normal;
+}
+
+#inicio h1 {
+    font-size: 40px;
+    color: var(--turquoise);
+}
+
+#inicio p {
+    font-size: 35px;
+}
+
+#portfolio ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 40px;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.form-input {
+    padding: 8px;
+    font-size: large;
+}
+
+.link {
+    color: var(--white);
+    transition: .3s;
+}
+
+.link:hover {
+    color: var(--turquoise);
+}
+
+.sub-titulo {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    width: fit-content;
+}
+
+.sub-titulo h2 {
+    font-size: 30px;
+    color: var(--turquoise);
+}
+
+.sub-titulo hr {
+    background-color: var(--white);
+    height: 4px;
+    width: 60%;
+}
+
+.formacao {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.botao {
+    background: none;
+    border: 1.5px solid var(--turquoise);
+    border-radius: 4px;
+    color: var(--turquoise);
+    cursor: pointer;
+    font-size: large;
+    padding: 9px 12px;
+    transition: .3s;
+    width: fit-content;
+}
+
+.botao:hover {
+    background-color: var(--turquoise);
+    color: var(--black);
+}
