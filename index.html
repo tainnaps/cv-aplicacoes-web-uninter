@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Tainá Santana</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="links-navegacao">
+                <li>
+                    <a class="link" href="#inicio">Início</a>
+                </li>
+                <li>
+                    <a class="link" href="#sobre">Sobre</a>
+                </li>
+                <li>
+                    <a class="link" href="#formacao">Formação</a>
+                </li>
+                <li>
+                    <a class="link" href="#portfolio">Portfólio</a>
+                </li>
+                <li>
+                    <a class="link" href="#contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <div>
+                <h1>Tainá Santana</h1>
+                <p>>_Engenheira de Software_<</p>
+                <a class="botao" href="#sobre">Saiba mais</a>
+            </div>
+        </section>
+        <section id="sobre">
+            <div class="sub-titulo">
+                <h2>Sobre mim</h2>
+                <hr/>
+            </div>
+            <p>
+                Olá! Eu sou a Tainá, tenho 24 anos de idade e sou nativa de Salvador-BA, onde moro até hoje.
+            </p>
+            <p>
+                Sou o tipo de pessoa analítica, que presta atenção aos detalhes (por menores que sejam) e que gosta de resolver problemas.
+            </p>
+            <p>
+                Conheci a programação através da eletrônica, escrevendo programas para microcontroladores utilizando as linguagens de programação Assembly e C.
+            </p>
+            <p>
+                Meus dias costumam ser corridos e no tempo livre gosto de assistir animes e dramas coreanos, analisar planta baixa de casas que encontro no Pintrest, desenhar e pintar.
+            </p>
+        </section>
+        <section id="formacao">
+            <div class="sub-titulo">
+                <h2>Formação</h2>
+                <hr/>
+            </div>
+            <div class="formacao">
+                <h3>
+                    Engenharia de Software - UNINTER, Dez 2022 - Dez 2026
+                </h3>
+                <p>
+                    Graduação com 3.214 horas de aulas teóricas e práticas abordando desenvolvimento de software da concepção à implantação, passando por projeto, desenvolvimento, testes, validação, segurança, integração e gestão.
+                </p>
+            </div>
+            <div class="formacao">
+                <h3>Ensino Médio integrado ao curso Técnico em Eletrônica - IFBA, Abr 2014 - Abr 2018</h3>
+                <p>
+                    Curso técnico integrado ao ensino médio focado em práticas de projeto e reparo de sistemas eletrônicos em geral, incluindo desenvolvimento de projetos com sistemas microprocessados.
+                </p>
+            </div>
+        </section>
+        <section id="portfolio">
+            <div class="sub-titulo">
+                <h2>Portfólio</h2>
+                <hr/>
+            </div>
+            <p>Confira abaixo alguns dos projetos que desenvolvi. Click neles para acessá-los.</p>
+            <ul>
+                <li>
+                    <a class="link" href="https://tainnaps.github.io/to-do-list/" target="_blank">
+                        Lista de tarefas - aplicação que permite gerenciar tarefas, desenvolvida com HTML, CSS e JavaScript
+                    </a>
+                </li>
+                <li>
+                    <a class="link" href="https://tainnaps.github.io/kawaii-trunfo/" target="_blank">
+                        Kawaii trunfo - aplicação que permite criar cartas, desenvolvida com React, HTML, CSS e JavaScript
+                    </a>
+                </li>
+                <li>
+                    <a class="link" href="https://tainnaps.github.io/solar-system/" target="_blank">
+                        Sistema solar - aplicação que mostra os planetas do sistema solar algumas expedições espaciais, desenvolvida com React, HTML, CSS e JavaScript
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section id="contato">
+            <div class="sub-titulo">
+                <h2>Contato</h2>
+                <hr/>
+            </div>
+            <form id="formulario">
+                <label for="nome">Nome</label>
+                <input class="form-input" type="text" id="nome" name="nome" required>
+                <label for="email">Email</label>
+                <input class="form-input" type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem</label>
+                <textarea class="form-input" id="mensagem" name="mensagem" rows="5" required></textarea>
+                <button class="botao" type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
